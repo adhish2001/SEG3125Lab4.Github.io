@@ -1,0 +1,50 @@
+.page-header{
+    font-family: Georgia, serif;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    background: bisque;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: black;
+    color:goldenrod;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+  /* Add some padding inside the card container */
+.card-container {
+    padding: 2px 16px;
+}
+.table{
+    background-color: black;
+    color:indigo;
+}
+.footer{
+    padding:30px;
+    background-color: black;
+    text-align: center;
+    color: goldenrod;
+}

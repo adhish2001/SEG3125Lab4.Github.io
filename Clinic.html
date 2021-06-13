@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" 
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="Clinic.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1><img src="images/logo.png" width="130" height="130">Gold's Gym Physio-Clinic</h1>
+      </div>
+      <div class="introduction">
+        <p>We are Physiotherapy clinic that focuses on helping bodybuilders or any heavy lifters<p>
+        <p> We are currently located in Venice, California. Close proximity to Gold's Gym.</p>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" >
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.890971720746!2d-118.47756288443372!3d33.99533412817356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bacf4578353b%3A0x475106ed00e39b87!2sGold&#39;s%20Gym%20Venice!5e0!3m2!1sen!2sca!4v1623609068115!5m2!1sen!2sca"
+           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <h6>Here below, are the experts that lead our clinic</h6>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <img src="/images/exp1.jpg" alt="Avatar" style="width:100%">
+            <div class="card-container"></div>
+              <h4><b>Jotaro</b></h4> 
+              <p>General Physician</p> 
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <img src="/images/exp2.jpg" alt="Avatar" style="width:100%">
+            <div class="card-container"></div>
+              <h4><b>Josuke</b></h4> 
+              <p>Joint and Spinal alignment speicalist</p> 
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <img src="/images/exp3.jpg" alt="Avatar" style="width:100%">
+            <div class="card-container"></div>
+              <h4><b>Giorno</b></h4> 
+              <p>Muscle Recovery Specialist</p> 
+          </div>
+        </div>
+      </div>
+      <h6>We also have multiple physiotherapy services that we speicialize in.</h6>
+      <table class="table table-info table-hover">
+        <thead>
+            <tr>
+                <th scope="col"><h2>Service</h2></th>
+                <th scope="col"><h2></h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Custom Knee Brace</td>
+                <td>Custom fit knee braces that are comfortable</td>
+            </tr>
+            <tr>
+                <td>Preventive Care</td>
+                <td>Courses and training routine to prevent further injuries</td>
+            </tr>
+            <tr>
+                <td>Vesitubular Rehab</td>
+                <td>Improve balance and reduce back or spinal pain</td>
+            </tr>
+            <tr>
+              <td>Chiropractor</td>
+              <td>Realignment and improvement in joints</td>
+            </tr>
+              <tr>
+                <td>Meal and Supplement Guide</td>
+                <td>Analyze blood and body of client and build a guide for them</td>
+              </tr>
+        </tbody>
+    </table>
+    <h6>If you are interested in any of the services here or believe our experts can help you
+      please fill out the form below, we will then contact you if we have available time.
+    </h6>
+    <form>
+      <div class="form-group row">
+        <label>Please Input Full Name Below</label>
+        <input type="text" placeholder="John Doe">
+      </div>
+      <div class="form-group row">
+        <label>Include Adress Below</label>
+        <input type="text" placeholder="1234 Random ave."> 
+      </div>
+      <div class="form-group row">
+        <label>Please Input email</label>
+        <input type="text" placeholder="JohnDoe@someEmail.ca">
+      </div>
+      <div class="form-group row">
+        <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+        <div class="col-10">
+          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+        </div>
+        <label>Please check the options that you require</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Knee Brace
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Preventive Care
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Vesitublar Rehav
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Chiropractor
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Meal and Supplement Guide
+          </label>
+        </div>
+      </div>
+    </form>
+    <button type="button" class="btn btn-dark">Submit</button>
+    </div>
+    <div class="footer">
+      <h3>Website Designed by Dio</h3>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  </body>
+</html>
